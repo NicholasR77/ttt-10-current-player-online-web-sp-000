@@ -11,11 +11,14 @@ def turn_count(board)
       turn_counter += 1
     end
   end
+  #returns the current counter
   puts turn_counter
+  return turn_counter
 end
 
 #current player method
 def current_player(board)
+  if (turn_counter(board) ==
 
 end
 
