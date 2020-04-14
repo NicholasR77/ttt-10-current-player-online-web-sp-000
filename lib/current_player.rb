@@ -1,5 +1,5 @@
 #test variables
-test_board = ["X", "X", " ", " ", " ", " ", " ", " O", "O"]
+test_board = ["X", "X", " ", " ", " ", " ", " ", "O", "O"]
 
 #turn count method
 def turn_count(board)
