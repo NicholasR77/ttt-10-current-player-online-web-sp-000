@@ -23,5 +23,3 @@ def current_player(board)
       puts "It it O player's turn."
   end
 end
-
-turn_count(test_board)
