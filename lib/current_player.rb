@@ -11,7 +11,7 @@ def turn_count(board)
       turn_counter += 1
     end
   end
-  puts turn
+  puts turn_counter
 end
 
 #current player method
