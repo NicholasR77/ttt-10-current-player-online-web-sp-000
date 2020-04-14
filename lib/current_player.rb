@@ -20,8 +20,8 @@ def current_player(board)
   if (turn_count(board) == 9)
     puts "The game is over."
   elsif (turn_count(board) % 2 == 0)
-    puts "It it X player's turn."
+    return X
   elsif (turn_count(board) % 2 != 0)
-      puts "It it O player's turn."
+    return O
   end
 end
