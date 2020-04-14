@@ -7,7 +7,9 @@ def turn_count(board)
   turn_counter = 0
   #loop through the board array
   board.each do |index|
-    puts index
+    if (index == "X" || index == "O")
+      turn_counter += 1
+    end
   end
     #list number of turns
     #increase counter?
