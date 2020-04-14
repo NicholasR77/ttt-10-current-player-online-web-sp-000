@@ -1,5 +1,5 @@
 #test variables
-test_board = ["X", "X", " ", " ", " ", " ", " ", " ", " "]
+test_board = ["X", "X", " ", " ", " ", " ", " ", " O", "O"]
 
 #turn count method
 def turn_count(board)
@@ -11,7 +11,7 @@ def turn_count(board)
       turn_counter += 1
     end
   end
-  puts turn_counter
+  puts turn
 end
 
 #current player method
