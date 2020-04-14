@@ -3,7 +3,9 @@ def turn_count(board)
   #create a counter
   turn_counter = 0
   #loop through the board array
-
+  board.each |index|
+    puts index
+  end
     #list number of turns
     #increase counter?
   #end loop
