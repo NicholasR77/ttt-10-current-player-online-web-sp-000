@@ -1,3 +1,6 @@
+#test variables
+test_board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
 #turn count method
 def turn_count(board)
   #create a counter
@@ -15,3 +18,5 @@ end
 def current_player(board)
 
 end
+
+turn_count(test_board)
